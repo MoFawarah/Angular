@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "HjTwX80QjpkrsSFxauOqMoez60fHfS7KKEk7socXWdA=",
+  "Hash": "mZzvEydrSp2Cvqg45wKFDxkWvtLGSq5FSMWRyUtWy5k=",
   "Source": "ServicesEcommerce.Server",
   "BasePath": "_content/ServicesEcommerce.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\ServicesEcommerce\\ServicesEcommerce\\servicesecommerce.client\\servicesecommerce.client.esproj",
+      "Identity": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\servicesecommerce.client.esproj",
       "Version": 2,
       "Source": "servicesecommerce.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

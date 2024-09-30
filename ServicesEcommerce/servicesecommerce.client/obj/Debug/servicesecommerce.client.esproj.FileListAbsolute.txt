@@ -1,1 +1,2 @@
 C:\Users\Orange\Desktop\ServicesEcommerce\ServicesEcommerce\servicesecommerce.client\obj\Debug\servicesecommerce.client.esproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\AngularThings\Angular\ServicesEcommerce\servicesecommerce.client\obj\Debug\servicesecommerce.client.esproj.CoreCompileInputs.cache

@@ -9,7 +9,7 @@ export class UrlService {
 
   constructor(private http: HttpClient) { }
 
-  // بحط كل الروابط من سواقر للسيرفس
+
   staticData = "https://localhost:7178/api"
 
 
@@ -25,4 +25,26 @@ export class UrlService {
   
 
   }
+
+  getSubscriptions(): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/Subscription`)
+
+  }
+
+  addUserSubscription(data : any): Observable<any> { // data : any >> because it takes data from body
+    return this.http.post<any>(`${this.staticData}/userSubsciption`, data)
+    
+
+  }
+
+
+  getSingleSubServiceById(id: any): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/SubService/GetSubServiceById/${id}`)
+
+
+  }
+
+
+
 }
+

@@ -8,20 +8,32 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { ServicesComponent } from './services/services.component';
 import { SubServicesComponent } from './sub-service/sub-service.component';
+import { Lecture3Component } from './lecture3/lecture3.component';
+import { FormsModule, NgForm } from '@angular/forms';
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { SingleSubServiceComponent } from './single-sub-service/single-sub-service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     ServicesComponent,
-    SubServicesComponent
+    SubServicesComponent,
+    Lecture3Component,
+    SubscriptionComponent,
+    SingleSubServiceComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule, HttpClientModule,
     AppRoutingModule,
     RouterModule.forRoot([
       { path: "", component: ServicesComponent, pathMatch: "full" },
-      { path: "SubService/:id", component: SubServicesComponent},
+      { path: "SubService/:id", component: SubServicesComponent },
+      { path: "lecture3", component: Lecture3Component },
+      { path: "subscription", component: SubscriptionComponent },
+      { path: "SingleSubService/:id", component: SingleSubServiceComponent},
+
       //{ path: "product", component: ProductsComponent },
   
 

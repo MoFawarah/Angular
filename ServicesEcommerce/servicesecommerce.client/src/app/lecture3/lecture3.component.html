@@ -1,3 +1,21 @@
+<style>
+  .colorful-star {
+    color: gold; /* Colorful stars */
+  }
+
+  .non-colorful-star {
+    color: lightgray; /* Non-colorful stars */
+  }
+</style>
+
+
+
+
+
+
+
+
+
 <p>lecture3 works!</p>
 
 <h1>{{name}}</h1>
@@ -6,4 +24,46 @@
 
 
 <input type="number" value="{{name}}" [(ngModel)]="age" />
+
+
+
+<p *ngIf="display==true">Hello World</p>
+
+
+
+<div *ngIf="display == true">
+
+  <div class="stars">
+    <span *ngFor="let star of stars; let i = index"
+          [ngClass]="{'colorful-star': i < rating, 'non-colorful-star': i >= rating}">
+      &#9733;
+    </span>
+  </div>
+</div>
+
+
+<div *ngFor="let item of fruits">
+
+  <h2>{{item}}</h2>
+
+</div>
+
+
+
+<div [ngSwitch]="color">
+  <p *ngSwitchCase="'red'">color is red</p>
+  <p *ngSwitchCase="'black'">color is black</p>
+  <p *ngSwitchCase="'yellow'">color is yellow</p>
+  <p *ngSwitchDefault>Default</p>
+
+
+</div>
+
+
+<div [ngSwitch]="numberValue">
+  <p *ngSwitchCase="1">The number is 1</p>
+  <p *ngSwitchCase="2">The number is 2</p>
+  <p *ngSwitchCase="3">The number is 3</p>
+  <p *ngSwitchDefault>The number is something else</p>
+</div>
 

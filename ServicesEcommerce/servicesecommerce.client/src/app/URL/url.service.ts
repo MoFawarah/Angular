@@ -45,6 +45,20 @@ export class UrlService {
   }
 
 
+  ///////////// For Registration ///////////////
+  addUser(data:any): Observable<any> {
+    return this.http.post(`${this.staticData}/User/CreateUser`, data)
+  }
+
+
+
+  //////////////// For Login ///////////////////
+
+  loginUser(data:any): Observable<any> {
+    return this.http.post(`${this.staticData}/User/Login`, data)
+  }
+
+
 
 }
 

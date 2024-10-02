@@ -59,6 +59,11 @@ export class UrlService {
   }
 
 
+  addService(data: any): Observable<any> {
+    return this.http.post(`${this.staticData}/Services/addService`, data)
+
+  }
+
 
 }
 

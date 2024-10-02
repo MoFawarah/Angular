@@ -21,7 +21,43 @@ export class Lecture3Component {
 
   color = "ccc"
 
-  numberValue: number = 2; 
+  numberValue: number = 2;
+
+
+
+
+  userObj = {
+    name: "Rama",
+    age: 22,
+    color: "Yellow"
+  }
+
+
+
+
+
+
+  usersArray = [{
+    name: "Rama",
+    age: 22,
+    grade: 15,
+  },
+    {
+      name: "Nancy",
+      age: 22,
+      grade: 20,
+    },
+
+    {
+      name: "Mo",
+      age: 22,
+      grade: 26,
+    },
+
+
+
+
+  ]
 
 
 }

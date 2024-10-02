@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServicesEcommerce.Server.DTOs;
 using ServicesEcommerce.Server.Models;
 
 namespace ServicesEcommerce.Server.Controllers
@@ -25,5 +26,36 @@ namespace ServicesEcommerce.Server.Controllers
             return Ok(services);
 
         }
+        [HttpPost("addService")]
+        public IActionResult addService([FromForm] ServiceRequestDTO serviceDTO)
+        {
+            var uploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "Images");
+
+            if (!Directory.Exists(uploadFolder))
+            {
+                Directory.CreateDirectory(uploadFolder);
+            }
+
+            // Generate a unique filename using GUID
+            var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(serviceDTO.ServiceImage.FileName);
+            var imageFilePath = Path.Combine(uploadFolder, uniqueFileName);
+
+            using (var stream = new FileStream(imageFilePath, FileMode.Create))
+            {
+                serviceDTO.ServiceImage.CopyTo(stream); // Changed to synchronous for simplicity
+            }
+
+            var newService = new Service
+            {
+                ServiceName = serviceDTO.ServiceName,
+                ServiceDescription = serviceDTO.ServiceDescription,
+                ServiceImage = uniqueFileName, // Store the unique filename
+            };
+
+            _db.Services.Add(newService);
+            _db.SaveChanges();
+            return Ok();
+        }
+
     }
 }

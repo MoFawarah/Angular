@@ -6,6 +6,18 @@
   .non-colorful-star {
     color: lightgray; /* Non-colorful stars */
   }
+
+  .greenColor {
+      background-color: green;
+      margin: 0 auto;
+      width: 20px;
+  }
+
+  .redColor {
+    background-color: red;
+    margin: 0 auto;
+    width: 20px;
+  }
 </style>
 
 
@@ -35,9 +47,7 @@
 
   <div class="stars">
     <span *ngFor="let star of stars; let i = index"
-          [ngClass]="{'colorful-star': i < rating, 'non-colorful-star': i >= rating}">
-      &#9733;
-    </span>
+          [ngClass]="{'colorful-star': i < rating, 'non-colorful-star': i >= rating}">&#9733;</span>
   </div>
 </div>
 
@@ -67,3 +77,22 @@
   <p *ngSwitchDefault>The number is something else</p>
 </div>
 
+
+<hr />
+
+<h1 [ngStyle]="{'background-color': userObj.color}">{{userObj.name}}</h1>
+
+<p [ngStyle]="{'color' : 'red'}">Orange Coding Academy</p>
+
+
+<div *ngFor="let item of usersArray" >
+
+
+  <p>{{item.name}}</p>
+  <p>{{item.age}}</p>
+  <p [ngClass]="{'greenColor' : item.grade > 15, 'redColor': item.grade <= 15}">{{item.grade}}</p>
+
+
+
+
+</div>

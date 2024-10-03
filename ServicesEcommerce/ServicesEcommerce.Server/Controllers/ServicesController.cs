@@ -57,5 +57,47 @@ namespace ServicesEcommerce.Server.Controllers
             return Ok();
         }
 
+
+
+        [HttpPut("UpdateServiceById/{id}")]
+        public IActionResult UpdateServiceById(int id, [FromForm] ServiceRequestDTO serviceDTO)
+        {
+
+            var service = _db.Services.Find(id);
+
+            var uploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "Images");
+
+            if (!Directory.Exists(uploadFolder))
+            {
+                Directory.CreateDirectory(uploadFolder);
+            }
+
+            // Generate a unique filename using GUID
+            var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(serviceDTO.ServiceImage.FileName);
+            var imageFilePath = Path.Combine(uploadFolder, uniqueFileName);
+
+            using (var stream = new FileStream(imageFilePath, FileMode.Create))
+            {
+                serviceDTO.ServiceImage.CopyTo(stream); // Changed to synchronous for simplicity
+            }
+
+
+            service.ServiceName = serviceDTO.ServiceName;
+            service.ServiceDescription = serviceDTO.ServiceDescription;
+            service.ServiceImage = uniqueFileName;
+
+
+
+            _db.Services.Update(service);
+            _db.SaveChanges();
+
+            return Ok(service);
+
+
+
+
+
+
+        }
     }
 }

@@ -65,5 +65,11 @@ export class UrlService {
   }
 
 
+  editService(id:any, data: any): Observable<any> {
+    return this.http.put(`${this.staticData}/Services/UpdateServiceById/${id}`, data)
+ 
+  }
+
+
 }
 

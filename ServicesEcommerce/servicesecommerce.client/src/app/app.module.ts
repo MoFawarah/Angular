@@ -16,6 +16,8 @@ import { RegistrationUserComponent } from './registration-user/registration-user
 import { LoginUserComponent } from './login-user/login-user.component';
 import { DashboardComponent } from './Admin/dashboard/dashboard.component';
 import { AddServiceComponent } from './Admin/add-service/add-service.component';
+import { ShowServicesComponent } from './Admin/show-services/show-services.component';
+import { EditServiceComponent } from './Admin/edit-service/edit-service.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { AddServiceComponent } from './Admin/add-service/add-service.component';
     RegistrationUserComponent,
     LoginUserComponent,
     DashboardComponent,
-    AddServiceComponent
+    AddServiceComponent,
+    ShowServicesComponent,
+    EditServiceComponent
   ],
   imports: [
     FormsModule,
@@ -46,7 +50,9 @@ import { AddServiceComponent } from './Admin/add-service/add-service.component';
       {
         path: "Dashboard", component: DashboardComponent, children: [
 
-          { path: "AddService", component : AddServiceComponent }
+          { path: "AddService", component: AddServiceComponent },
+          { path: "ShowServices", component: ShowServicesComponent },
+          { path: "EditServices/:id", component: EditServiceComponent }
 
       ] },
 

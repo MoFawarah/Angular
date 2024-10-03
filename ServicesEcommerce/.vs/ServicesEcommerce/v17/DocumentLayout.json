@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\login-user\\login-user.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\login-user\\login-user.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\admin\\edit-service\\edit-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\admin\\edit-service\\edit-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\admin\\edit-service\\edit-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\admin\\edit-service\\edit-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\url\\url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\url\\url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAEA304-43A1-409A-83EF-058373C94E99}|ServicesEcommerce.Server\\ServicesEcommerce.Server.csproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.server\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BAEA304-43A1-409A-83EF-058373C94E99}|ServicesEcommerce.Server\\ServicesEcommerce.Server.csproj|solutionrelative:servicesecommerce.server\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\admin\\show-services\\show-services.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\admin\\show-services\\show-services.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\admin\\add-service\\add-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\admin\\add-service\\add-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BAEA304-43A1-409A-83EF-058373C94E99}|ServicesEcommerce.Server\\ServicesEcommerce.Server.csproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BAEA304-43A1-409A-83EF-058373C94E99}|ServicesEcommerce.Server\\ServicesEcommerce.Server.csproj|solutionrelative:servicesecommerce.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|c:\\users\\orange\\desktop\\angularthings\\angular\\servicesecommerce\\servicesecommerce.client\\src\\app\\single-sub-service\\single-sub-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{524ED13E-0F1F-40FA-9CCD-D28C0BD68D82}|servicesecommerce.client\\servicesecommerce.client.esproj|solutionrelative:servicesecommerce.client\\src\\app\\single-sub-service\\single-sub-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +66,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "login-user.component.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\login-user\\login-user.component.ts",
-              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\login-user\\login-user.component.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\login-user\\login-user.component.ts",
-              "RelativeToolTip": "servicesecommerce.client\\src\\app\\login-user\\login-user.component.ts",
-              "ViewState": "AQIAAAwAAAAAAAAAAADwvyAAAAArAAAA",
+              "DocumentIndex": 2,
+              "Title": "url.service.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\URL\\url.service.ts",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\URL\\url.service.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\URL\\url.service.ts",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\URL\\url.service.ts",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-02T12:34:01.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.module.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\app.module.ts",
-              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\app.module.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\app.module.ts",
-              "RelativeToolTip": "servicesecommerce.client\\src\\app\\app.module.ts",
-              "ViewState": "AQIAABgAAAAAAAAAAAAgwC4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-02T12:33:03.638Z",
+              "WhenOpened": "2024-10-03T13:21:16.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "app.component.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\app.component.ts",
-              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\app.component.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\app.component.ts",
-              "RelativeToolTip": "servicesecommerce.client\\src\\app\\app.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-02T12:33:01.188Z",
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\ServicesEcommerce.Server\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "ServicesEcommerce.Server\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\ServicesEcommerce.Server\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "ServicesEcommerce.Server\\Controllers\\ServicesController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAIwEEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:15:49.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "registration-user.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.html",
-              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.html",
-              "RelativeToolTip": "servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.html",
-              "ViewState": "AQIAADIAAAAAAAAAAAAswEMAAAAgAAAA",
+              "DocumentIndex": 5,
+              "Title": "show-services.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\show-services\\show-services.component.html",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\Admin\\show-services\\show-services.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\show-services\\show-services.component.html",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\Admin\\show-services\\show-services.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T12:32:22.968Z",
+              "WhenOpened": "2024-10-03T13:10:23.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "edit-service.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.html",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.html",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.html",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-03T13:08:48.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "registration-user.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.ts",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.ts",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\registration-user\\registration-user.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-03T13:03:50.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "single-sub-service.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\single-sub-service\\single-sub-service.component.ts",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\single-sub-service\\single-sub-service.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\single-sub-service\\single-sub-service.component.ts",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\single-sub-service\\single-sub-service.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-03T13:01:35.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "edit-service.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\Admin\\edit-service\\edit-service.component.ts",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-03T12:59:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "add-service.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\add-service\\add-service.component.html",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\Admin\\add-service\\add-service.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\Admin\\add-service\\add-service.component.html",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\Admin\\add-service\\add-service.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-03T12:50:33.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\ServicesEcommerce.Server\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ServicesEcommerce.Server\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\ServicesEcommerce.Server\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ServicesEcommerce.Server\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T12:24:58.057Z",
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "servicesecommerce.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\AngularThings\\Angular\\ServicesEcommerce\\servicesecommerce.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "servicesecommerce.client\\src\\app\\app.module.ts",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwDYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-03T12:49:39.382Z",
               "EditorCaption": ""
             }
           ]
